@@ -1,0 +1,12 @@
+PROFILE PHOTO
+
+Add your profile image here as:
+  src/assets/profile.jpg
+
+Then replace the profile placeholder inside:
+  src/app/components/hero/hero.component.html
+
+Replace the profile-placeholder block with an image such as:
+<img src="assets/profile.jpg" alt="Arslan Ali" class="profile-image">
+
+Recommended: square or portrait JPG/WEBP, at least 800px wide.

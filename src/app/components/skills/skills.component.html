@@ -1,0 +1,4 @@
+<section id="skills" class="a1-section a1-dark"><div class="a1-container">
+  <div class="section-head"><div><span class="a1-kicker">03 — Toolkit</span><div class="section-num">STACK</div></div><div><h2 appReveal class="section-heading">Tools for turning <em>ideas into systems.</em></h2><p class="a1-copy" style="max-width:600px">Not a list of buzzwords — a practical toolkit I keep using, testing and expanding.</p></div></div>
+  <div class="skill-grid"><div *ngFor="let group of skillGroups; let i=index" appReveal class="skill-card"><span class="skill-index">0{{ i+1 }}</span><span class="skill-arrow">↗</span><h3 class="skill-title">{{ group.title }}</h3><div class="skill-items"><span *ngFor="let item of group.items" class="skill-pill">{{ item }}</span></div></div></div>
+</div></section>

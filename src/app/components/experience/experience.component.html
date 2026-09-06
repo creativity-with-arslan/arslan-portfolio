@@ -1,0 +1,4 @@
+<section id="experience" class="a1-section a1-dark"><div class="a1-container">
+  <div class="section-head"><div><span class="a1-kicker">05 — Journey</span><div class="section-num">PATH</div></div><div><h2 appReveal class="section-heading">From curiosity<br><em>to capability.</em></h2></div></div>
+  <div class="timeline"><div *ngFor="let item of timeline; let i=index" appReveal class="chapter"><div class="chapter-number">0{{ i+1 }} / chapter</div><div><h3 class="chapter-title">{{ item.title }}</h3><div class="chapter-org">{{ item.org }}</div><p class="a1-copy" style="max-width:760px">{{ item.description }}</p><div *ngIf="item.tags.length" class="chapter-tags"><span *ngFor="let tag of item.tags" class="skill-pill">{{ tag }}</span></div></div></div></div>
+</div></section>

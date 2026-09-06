@@ -1,0 +1,9 @@
+<header class="a1-nav">
+  <a href="#home" class="nav-logo">ARSLAN<span>/</span>ALI</a>
+  <div class="nav-links"><a *ngFor="let link of links" [href]="link.href">{{ link.label }}</a></div>
+  <a href="#contact" class="nav-cta">Let's talk ↗</a>
+  <button class="nav-menu" (click)="toggleMenu()" aria-label="Open menu">☰</button>
+</header>
+<div *ngIf="menuOpen" style="position:fixed;z-index:79;top:78px;right:18px;left:18px;padding:12px;border:1px solid rgba(245,241,232,.13);border-radius:20px;background:#11110feF;backdrop-filter:blur(20px)">
+  <a *ngFor="let link of links" [href]="link.href" (click)="closeMenu()" style="display:block;padding:14px;font:400 10px 'Space Mono';text-transform:uppercase;color:#8c887e">{{ link.label }}</a>
+</div>

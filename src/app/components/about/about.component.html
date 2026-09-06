@@ -1,0 +1,6 @@
+<section id="about" class="a1-section"><div class="a1-container">
+  <div class="section-head"><div><span class="a1-kicker">02 — About</span><div class="section-num">ME</div></div><div><h2 appReveal class="section-heading">A developer in the making, <em>one real project at a time.</em></h2></div></div>
+  <div class="about-grid"><div appReveal><div class="about-lead">I learn fastest when the theory turns into something I can actually build.</div><p class="a1-copy about-copy">I'm a Computer Science student at the <strong style="color:var(--ink)">University of Gujrat (UOG)</strong>, focused on strengthening programming, web development and software engineering fundamentals.</p><p class="a1-copy">I enjoy moving between interfaces, APIs and databases — understanding not just how a feature looks, but how the whole system works.</p></div>
+  <div appReveal><div class="a1-kicker">Current learning path</div><div class="journey-list"><div *ngFor="let item of learningJourney; let i=index" class="journey-item"><span>0{{ i+1 }}</span><div>{{ item }}</div></div></div></div></div>
+  <div class="stat-grid"><div *ngFor="let stat of stats" appReveal class="stat"><div class="stat-title">{{ stat.title }}</div><div class="stat-sub">{{ stat.subtitle }}</div></div></div>
+</div></section>
