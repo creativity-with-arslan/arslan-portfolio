@@ -11,14 +11,14 @@ import { RevealDirective } from '../../directives/reveal.directive';
 export class AboutComponent {
   // Edit this list to update the "learning journey" bullets in the About section.
   learningJourney: string[] = [
-    'Frontend development with Angular',
-    'Backend development with Laravel / PHP',
-    'REST API development and testing',
+    'Frontend Development with Angular',
+    'Backend Development with Laravel / PHP',
+    'REST API Development and testing',
     'Database systems',
     'C / C++ programming',
     'Object-Oriented Programming',
     'Data Structures and Algorithms',
-    'Software development concepts',
+    'Software Development concepts',
     'AI / ML and Python',
   ];
 
