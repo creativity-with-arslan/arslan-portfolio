@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://creativity-with-arslan.vercel.app/sitemap.xml
